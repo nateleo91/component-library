@@ -1,0 +1,20 @@
+#counterDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+
+.countButton {
+    background-color: #F6F7F8;
+    color: #33A0FF;
+    border-color: #F6F7F8;
+    width: 25px;
+    padding: 0;
+  }
+
+  .midNum {
+    color: black;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+  }
