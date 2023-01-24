@@ -1,0 +1,43 @@
+/* Email */
+.email-Email {
+    border: 2px solid #ececec;
+    padding: 8px 50px 8px 8px;
+  }
+  .email-Email::placeholder {
+    color: #b4b4b4;
+  }
+  .email-Email-medium {
+    padding: 12px 70px 12px 12px;
+  }
+  .email-Email-medium::placeholder {
+    font-size: 15px;
+  }
+  .email-Email-large {
+    padding: 15px 95px 12px 15px;
+  }
+  .email-Email-large::placeholder {
+    font-size: 16px;
+  }
+  
+  /* Select */
+  .select-select {
+    height: 35px;
+    width: 170px;
+    background-color: #fafafb;
+    outline: none;
+    border: 10px solid #fafafb;
+  }
+  .select-select-medium {
+    height: 45px;
+    width: 200px;
+  }
+  .select-select-large {
+    height: 55px;
+    width: 230px;
+  }
+  .select-select-outline {
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid #ececec;
+    padding-left: 7px;
+  }
