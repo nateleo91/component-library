@@ -63,13 +63,14 @@
   margin: 3px;
 }
 .inlineRev {
-  color: rgb(230, 230, 230);
+  color: rgb(200, 200, 200);
   margin-left: 10px;
   font-size: 12px;
   letter-spacing: 1px;
 }
-.inlineBlue {
+.inlineSub {
   color: #33a0ff;
+  background-color: rgb(230,230,230);
   margin-left: 10px;
   font-size: 12px;
   letter-spacing: 1px;
@@ -125,7 +126,7 @@
 .image:hover {
   opacity: 0.05;
 }
-.belowImage {
+.belowImg {
   height: 110px;
   width: 170px;
   margin-top: -130px;
@@ -135,7 +136,7 @@
   opacity: 0.7;
 }
 
-.shoppingIcon {
+.heartIcon {
   height: 20px;
   width: 20px;
   border: 2px solid rgb(224, 224, 224);
@@ -146,7 +147,7 @@
   align-items: center;
   justify-content: center;
 }
-.heartIcon {
+.shoppingIcon {
   height: 20px;
   width: 20px;
   border: 2px solid rgb(224, 224, 224);
@@ -160,7 +161,7 @@
 img {
   height: 12px;
 }
-.heartIconBlue {
+.shoppingBIcon {
   height: 20px;
   width: 20px;
   border: 2px solid #33a0ff;
@@ -172,7 +173,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-.shoppingIconBlue {
+.heartBIcon {
   height: 20px;
   width: 20px;
   border: 2px solid #33a0ff;
@@ -210,7 +211,7 @@ img {
   margin-top: 5px;
   color: red;
 }
-.crossOut {
+.cross {
   margin-top: -20px;
   color: rgb(184, 184, 184);
   text-decoration: line-through;

@@ -20,11 +20,11 @@ const Thumbnail = (props) => {
   return (
     <div className="thumb-outer">
       <div className={classList.join(" ")}></div>
-      <div className="belowImage">
-        <div className="shoppingIcon">
+      <div className="belowImg">
+        <div className="heartIcon">
           <img src={heart} alt="heart" />
         </div>
-        <div className="heartIcon">
+        <div className="shoppingIcon">
           <img src={cart} alt="cart" />
         </div>
       </div>
@@ -35,7 +35,7 @@ const Thumbnail = (props) => {
           <span className="starGrey">&#9733;</span>
         </div>
         <div className="price">
-          $499 <span className="crossOut">$599</span>
+          $499 <span className="cross">$599</span>
         </div>
       </div>
     </div>

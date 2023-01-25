@@ -24,7 +24,7 @@ const ThumbnailBeats = (props) => {
           <span className="starGrey">&#9733;</span>
         </div>
         <div className="price">
-          $499 <span className="crossOut">$599</span>
+          $499 <span className="cross">$599</span>
         </div>
       </div>
     </div>

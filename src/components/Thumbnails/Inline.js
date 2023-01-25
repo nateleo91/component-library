@@ -26,10 +26,10 @@ const Inline = (props) => {
           &#9733; &#9733; &#9733; &#9733;
           <span className="starGrey">&#9733;</span>{" "}
           <span className="inlineRev">0 reviews</span>
-          <button className="inlineBlue">Submit a review</button>
+          <button className="inlineSub">Submit a review</button>
         </div>
         <div className="price">
-          $499 <span className="crossOut">$599</span>
+          $499 <span className="cross">$599</span>
         </div>
         <p className="description">{props.description}</p>
         <div className="shopButtons">
